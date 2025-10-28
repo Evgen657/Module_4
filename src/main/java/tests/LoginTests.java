@@ -16,7 +16,7 @@ public class LoginTests {
     @BeforeAll
     static void setup() {
         Configuration.browser = "firefox";
-        Configuration.browserSize = null; // можно вручную масштабировать окно, "1920x1080"
+        Configuration.browserSize = "1920x1080"; // можно вручную масштабировать окно, "1920x1080"
         Configuration.timeout = 5000;
 
         FirefoxOptions options = new FirefoxOptions();
